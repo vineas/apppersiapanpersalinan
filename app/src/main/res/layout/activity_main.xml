@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_menu"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:elevation="10dp"
+        app:cardCornerRadius="12dp"
+        android:outlineSpotShadowColor="@color/colorAccent"
+        >
+    <ImageButton
+        android:id="@+id/bt_list"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:src="@drawable/list"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:scaleType="centerCrop"
+        />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_listrm"
+        android:layout_width="240dp"
+        android:layout_height="120dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:elevation="10dp"
+        app:cardCornerRadius="12dp"
+        android:layout_marginTop="10dp"
+        android:outlineSpotShadowColor="@color/colorAccent"
+        >
+        <ImageButton
+            android:id="@+id/bt_pet"
+            android:layout_width="220dp"
+            android:layout_height="100dp"
+            android:src="@drawable/petunjuk"
+            android:layout_gravity="center"
+            android:textAllCaps="false"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_listinfo"
+        android:layout_width="240dp"
+        android:layout_height="140dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:elevation="10dp"
+        app:cardCornerRadius="12dp"
+        android:layout_marginTop="10dp"
+        android:outlineSpotShadowColor="@color/colorAccent"
+        >
+        <ImageButton
+            android:id="@+id/bt_inf"
+            android:layout_width="220dp"
+            android:layout_height="120dp"
+            android:src="@drawable/informasi"
+            android:layout_gravity="center"
+            android:textAllCaps="false"/>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>

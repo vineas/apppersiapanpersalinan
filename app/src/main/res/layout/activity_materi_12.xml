@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MateriSatu2Activity"
+    android:background="@drawable/persiapan2full"
+    >
+<!--    <RelativeLayout-->
+<!--             android:layout_width="match_parent"-->
+<!--             android:layout_height="wrap_content"-->
+<!--             android:paddingBottom="153dp">-->
+
+<!--        </RelativeLayout>-->
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_centerInParent="true"-->
+<!--                android:orientation="vertical"-->
+<!--                >-->
+<!--            <ImageButton-->
+<!--                android:id="@+id/ib_fisik"-->
+<!--                android:layout_width="340dp"-->
+<!--                android:layout_height="115dp"-->
+<!--                android:scaleType="fitCenter"-->
+<!--                android:src="@drawable/fisik"-->
+<!--                android:layout_alignParentLeft="true"-->
+<!--                />-->
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/ib_psikologis"-->
+<!--            android:layout_width="340dp"-->
+<!--            android:layout_height="115dp"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            android:src="@drawable/psikologis"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            />-->
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/ib_financial"-->
+<!--            android:layout_width="340dp"-->
+<!--            android:layout_height="115dp"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            android:src="@drawable/financial"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            />-->
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/ib_adat"-->
+<!--            android:layout_width="340dp"-->
+<!--            android:layout_height="115dp"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            android:src="@drawable/adatcover"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            />-->
+<!--            </LinearLayout>-->
+<!--    </RelativeLayout>-->
+
+
+</LinearLayout>

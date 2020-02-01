@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".fragments6.MateriEnamActivity"
+    android:background="@drawable/tahapcover">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="300dp">
+
+        </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+        <ImageButton
+            android:id="@+id/kala_1"
+            android:layout_width="165dp"
+            android:layout_height="165dp"
+            android:src="@drawable/kala1covernew"
+            android:scaleType="fitCenter"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            >
+            <ImageButton
+                android:id="@+id/kala_2"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:src="@drawable/kala2cover"
+                android:scaleType="fitCenter"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <ImageButton
+                android:id="@+id/kala_3"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:src="@drawable/kala3cover"
+                android:scaleType="fitCenter"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            >
+            <ImageButton
+                android:id="@+id/kala_4"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:src="@drawable/kala4cover"
+                android:scaleType="fitCenter"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="200dp">
+    </RelativeLayout>
+
+
+</LinearLayout>

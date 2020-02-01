@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ListMateri"
+    android:background="@color/krem"
+>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_listrm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:elevation="8dp"
+            android:outlineSpotShadowColor="@color/colorAccent"
+            android:layout_marginTop="28dp"
+            >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        >
+        <ImageButton
+            android:id="@+id/materi1"
+            android:layout_width="165dp"
+            android:layout_height="165dp"
+            android:src="@drawable/pers"
+            android:scaleType="fitCenter"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Persiapan"
+            android:layout_gravity="center"
+            android:textColor="#411724"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Persalinan"
+            android:layout_gravity="center"
+            android:textColor="#411724"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_list2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:elevation="8dp"
+            android:outlineSpotShadowColor="@color/colorAccent"
+            android:layout_marginTop="28dp"
+            android:layout_alignParentRight="true"
+            >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true">
+
+        <ImageButton
+            android:id="@+id/materi2"
+            android:layout_width="165dp"
+            android:layout_height="165dp"
+            android:src="@drawable/mitos"
+            android:scaleType="fitCenter"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mitos dan Fakta"
+        android:layout_gravity="center"
+        android:textColor="#411724"
+        android:textStyle="bold"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seputar Persalinan"
+            android:layout_gravity="center"
+            android:textColor="#411724"
+            android:textStyle="bold"
+
+            />
+
+
+
+    </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_list3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:elevation="8dp"
+            android:outlineSpotShadowColor="@color/colorAccent"
+            android:layout_marginTop="28dp"
+            >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true"
+            >
+            <ImageButton
+                android:id="@+id/materi3"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:src="@drawable/persalinan"
+                android:scaleType="fitCenter"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pengertian"
+                android:layout_gravity="center"
+                android:textColor="#411724"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Persalinan"
+                android:layout_gravity="center"
+                android:textColor="#411724"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_list4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:elevation="8dp"
+            android:outlineSpotShadowColor="@color/colorAccent"
+            android:layout_marginTop="28dp"
+            android:layout_alignParentRight="true"
+            >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true">
+
+            <ImageButton
+                android:id="@+id/materi4"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:src="@drawable/posisi"
+                android:scaleType="fitCenter"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Posisi"
+                android:layout_gravity="center"
+                android:textColor="#411724"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dalam Persalinan"
+                android:layout_gravity="center"
+                android:textColor="#411724"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="28dp"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_list5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:elevation="8dp"
+            android:outlineSpotShadowColor="@color/colorAccent"
+            android:layout_marginTop="28dp"
+            >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/materi5"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:src="@drawable/tips"
+                android:scaleType="fitCenter"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tips dan Trik"
+                android:layout_gravity="center"
+                android:textColor="#411724"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dalam Persalinan"
+                android:layout_gravity="center"
+                android:textColor="#411724"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_list6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:elevation="8dp"
+            android:outlineSpotShadowColor="@color/colorAccent"
+            android:layout_marginTop="28dp"
+            android:layout_alignParentRight="true"
+            >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/materi6"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:src="@drawable/tahapan"
+                android:scaleType="fitCenter"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tahapan"
+                android:layout_gravity="center"
+                android:textColor="#411724"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Persalinan"
+                android:layout_gravity="center"
+                android:textColor="#411724"
+                android:textStyle="bold"
+
+                />
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
